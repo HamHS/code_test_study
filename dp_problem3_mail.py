@@ -22,7 +22,7 @@ def send(start_number):
         if not visited[city]:
             total_city += 1
         visited[city] = True
-        if max_time < send_time:g
+        if max_time < send_time:
             max_time = send_time
 
         for i in line[city]:
